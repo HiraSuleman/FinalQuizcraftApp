@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quizcraftappfyp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name="com.example.quizcraftappfyp.utilss.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.quizcraftappfyp.activities.AddClassLayoutActivity"></activity>
+        <activity android:name="com.example.quizcraftappfyp.activities.AddClassActivity" />
+        <activity android:name="com.example.quizcraftappfyp.activities.SettingActivity" />
+        <activity android:name="com.example.quizcraftappfyp.activities.PaymentManageActivity" />
+        <activity android:name="com.example.quizcraftappfyp.activities.FeedBackManageActivity" />
+        <activity android:name="com.example.quizcraftappfyp.activities.StudentAccountActivity" />
+        <activity android:name="com.example.quizcraftappfyp.activities.TeacherAccountActivity" />
+        <activity android:name="com.example.quizcraftappfyp.activities.AdminAccountActivity" />
+        <activity
+            android:name="com.example.quizcraftappfyp.activities.UsersHomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.quizcraftappfyp.activities.UserHomeActivity" />
+        <activity
+            android:name="com.example.quizcraftappfyp.activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.quizcraftappfyp.activities.TeacherHomeActivity" />
+        <activity android:name="com.example.quizcraftappfyp.activities.AdminHomeActivity" />
+        <activity android:name="com.example.quizcraftappfyp.activities.SignupActivity" />
+        <activity android:name="com.example.quizcraftappfyp.activities.LoginActivity" />
+        <activity android:name="com.example.quizcraftappfyp.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.EdiAdminActivity" />
+    </application>
+
+</manifest>

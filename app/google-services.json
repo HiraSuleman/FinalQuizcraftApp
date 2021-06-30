@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1052637820006",
+    "project_id": "fyp-project-e7fd0",
+    "storage_bucket": "fyp-project-e7fd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052637820006:android:364571395335cad70429a7",
+        "android_client_info": {
+          "package_name": "com.example.quizcraftappfyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052637820006-ha2eqkfpd6jq8hvs1pn9om9c4rbrq8ei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quizcraftappfyp",
+            "certificate_hash": "709f0af3f4f9f5ba2757fd7e593a72cf06f36bf2"
+          }
+        },
+        {
+          "client_id": "1052637820006-gjqlg3c1v6uh3f1l7otb6npadsq8qsqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv_h4ZVRXW1Rb7yCD9QElCoeTz3YadI1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052637820006-gjqlg3c1v6uh3f1l7otb6npadsq8qsqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

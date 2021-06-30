@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home">
+
+    </item>
+
+    <item android:id="@+id/dashboard"
+        android:icon="@drawable/ic_graph"
+        android:title="Dashboard">
+
+    </item>
+    <item android:id="@+id/myaccount"
+        android:icon="@drawable/ic_account"
+        android:title="My Account">
+
+    </item>
+    <item android:id="@+id/payment"
+        android:icon="@drawable/ic_baseline_payment_24"
+        android:title="Payment">
+
+    </item>
+
+
+
+
+</group>
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback">
+
+            </item>
+
+
+        </menu>
+    </item>
+
+</menu>
